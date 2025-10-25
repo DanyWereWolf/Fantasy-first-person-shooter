@@ -20,8 +20,8 @@ MonoBehaviour:
   canShoot: 1
   fireMode: 0
   bulletSpeed: 50
-  damage: 10
-  fireRate: 0.5
+  damage: 25
+  fireRate: 0.7
   muzzleEffect: {fileID: 1008575725560751202, guid: c441904f4a9c93043859126dbc5182f1, type: 3}
   weaponType: 0
   shootSound: {fileID: 8300000, guid: 21fdcba2d1b730342be9069d2fdb2aa7, type: 3}
