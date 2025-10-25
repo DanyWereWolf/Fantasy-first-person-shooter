@@ -24,21 +24,17 @@ public class InventoryManager : MonoBehaviour
     public float hintFadeSpeed = 2f;
 
     private int selectedSlot = 0;
-
    
     private List<InventoryItem> slotItems = new List<InventoryItem>(9);
     private List<int> slotCounts = new List<int>(9);
 
-    
     private bool isShowingHint = false;
     private string currentHintText = "";
 
-    
     private PickupObject currentPickupObject;
 
     private float lastShotTime = 0f; 
 
-    
     private AudioSource audioSource;
     private GameObject currentMuzzleEffect;
     
